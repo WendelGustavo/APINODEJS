@@ -8,7 +8,7 @@ const mysql = require("./mysqlConnect");
     }
     if(query.select.description){
         sql+="description, ";
-    }
+    } 
     if(query.select.value){
         sql+="value, ";
     }
