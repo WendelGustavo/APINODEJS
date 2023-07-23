@@ -4,7 +4,7 @@ exports.post = async (data, idUser) => {
     return await movimentoModel.post(data, idUser);
 };
 
-/*exports.get = async (query) => {
+/*exports.get = async (query) => { 
     console.log(query);
     return await movimentoModel.get(query);
 };*/
